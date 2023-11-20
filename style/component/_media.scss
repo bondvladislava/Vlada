@@ -1,0 +1,34 @@
+@media (max-width: 1324px) {  
+    .greed{
+        // margin-left: 30px;
+        &__title{
+            margin-left: 30px;
+        }
+        &__foto{
+            margin-left: 30px;
+            .city{
+                width: 310px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .mobile{
+        &__text{
+            margin-left: auto;
+        }
+        &__foto{
+            margin-right: 10px;
+        }
+
+    }
+    .footer{
+        &__all{
+            left: -300px;
+        }
+    }
+    .nav{
+        &__logo{
+            margin-left: 25px;
+        }
+    }
+}

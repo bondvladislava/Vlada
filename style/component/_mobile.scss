@@ -1,0 +1,30 @@
+.mobile{
+    display: flex;
+    background-color: #F5F5F5;
+    &__text{
+        margin-top: 252px;
+        margin-left: 30px;
+        &-subtitle{
+            font-family: 'Kanit';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 64px;
+letter-spacing: 1px;
+width: 344px;
+color: #333333;
+        }
+        &-par{
+            font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 32px;
+color: #333333;
+
+        }
+    }
+    &__foto{
+        width: 800px;
+    }
+}

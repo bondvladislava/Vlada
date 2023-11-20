@@ -1,0 +1,60 @@
+.nav{
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    &__logo{
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        margin-left: 135px;
+    }
+    &__list{
+        display: flex;
+        margin:  auto;
+        &-item{
+            margin-right: 64px;
+            text-decoration: none;
+            list-style: none;
+            
+        }
+    }
+    &__item-link{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+
+        text-align: center;
+        text-decoration: none;
+        color: #FFFFFF;
+        &:hover{
+            color: #733e3e;
+            transition: all 0.7s;
+        }
+
+    }
+}
+.social{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 135px;
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.3003);
+    border-radius: 50%;
+    &-link{
+        width: 12px;
+        height: 12px;
+        // &:hover *{
+        //     color: #733e3e;
+        //     transition: all 0.7s;
+        // }
+    }
+}

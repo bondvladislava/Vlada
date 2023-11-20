@@ -1,0 +1,54 @@
+.header{
+    background: linear-gradient(135deg, #CA5EFF 0%, #004FDE 100%);
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    border-bottom-left-radius: 135px;
+    // height: 880px;
+    padding-top: 329px;
+    // padding-bottom: 400px;
+    padding-bottom: 449px;
+    &__title{
+        font-family: 'Kanit';
+        top: 270px;
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 80px;
+text-align: center;
+letter-spacing: 1px;
+color: #FFFFFF;
+    }
+}
+.infor{
+    display: flex;
+    justify-content: center;
+    &__rent{
+        &-text{
+            font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+color: rgba(51, 51, 51, 0.501557);
+
+        }
+        &-id{
+            background: #FFFFFF;
+            border: 1px solid #DADADA;
+            border-radius: 5px;
+            width: 170px;
+        }
+    }
+    &__search{
+        background: #FFFFFF;
+        border: 1px solid #DADADA;
+        border-radius: 5px;
+        position: relative;
+        &-text{
+            width: 370px;
+        }
+       &-icon {
+           position: absolute;
+       }
+    }
+}

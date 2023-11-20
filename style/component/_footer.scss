@@ -1,0 +1,64 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    &__all{
+        margin: 0 130px;
+    }
+    &__re{
+        &-subtitle{
+
+font-family: 'Kanit';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 1px;
+
+color: #333333;
+        }
+        &-par{
+            font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+color: rgba(51, 51, 51, 0.501557);
+
+        }
+    }
+    &__menu{
+        &-title{
+            font-family: 'Kanit';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+letter-spacing: 1px;
+
+color: #333333;
+
+        }
+    }
+    &__list{
+        padding: 0;
+        &-two{
+            margin-top: 80px;
+        }
+        &-item{
+            text-decoration: none;   
+            list-style: none; 
+        }
+    }
+    &__item-link{
+        text-decoration: none;
+        font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+color: #333333;
+       
+    }
+}
